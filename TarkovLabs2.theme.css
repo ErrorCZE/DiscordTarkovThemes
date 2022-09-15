@@ -1,7 +1,7 @@
 /**
- * @name Tarkov [Scavs]
+ * @name Tarkov [Labs - Industrial]
  * @author Err0rCZE
- * @version 1.0.1
+ * @version 1.0.0
  * @description Tarkov vzhled pro discord. Všechny vás mám rád
 */
 :root {
@@ -6157,14 +6157,14 @@ code {
 	border-top: 10px solid rgba(50, 50, 50, 0.34);
 }
 
+.text-md-medium-2avxhQ {
+    font-weight: 900;
+}
+
 .small-23Atuv {
 	max-height: none !important;
 }
 
-
-.text-md-medium-2avxhQ {
-    font-weight: 900;
-}
 
 .searchInput-3NGPfp {
 	width: 95%;
@@ -10065,20 +10065,20 @@ code {
   --success-color: #316432;
   --danger-color: #AD0403;
   --url-color: #b26827;
-  --background-image: url('https://i.gyazo.com/9b83af02f2c27971b90c7e9e8964fcbc.png');
+  --background-image: url('https://i.gyazo.com/f636ec1bd2cada56c815d899adfb5b00.png');
   /*--background-image: url('https://i.gyazo.com/05d4fc11f481327aeaaa1592fc0e03c8.png');*/
-  --background-shading: 0%;
+  --background-shading: 1%;
   --background-position: center;
   --background-size: cover;
   --background-repeat: repeat;
   --background-attachment: fixed;
-  --background-brightness: 95%;
-  --background-contrast: 105%;
-  --background-saturation: 107%;
+  --background-brightness: 185%;
+  --background-contrast: 115%;
+  --background-saturation: 105%;
   --background-grayscale: 0%;
   --background-invert: 0%;
   --background-blur: 0px;
-  --background-overlay: rgb(0,0,0,0.6);
+  --background-overlay: rgb(0,0,0,0.60);
   --user-popout-brightness: 100%;
   --user-popout-contrast: 100%;
   --user-popout-saturation: 100%;
@@ -10213,6 +10213,7 @@ code {
 .container-4HqGB3.background-3X6Uak {
 	background-color: rgba(7, 7, 7, 0.62);
 }
+
 
 /*BETTER DISCORD NASTAVENÍ*/
 .bd-button {

@@ -1,9 +1,10 @@
 /**
- * @name Tarkov [Scavs]
+ * @name Tarkov [Factory]
  * @author Err0rCZE
  * @version 1.0.1
  * @description Tarkov vzhled pro discord. Všechny vás mám rád
 */
+
 :root {
 	--main-color: #2780e6;
 	--hover-color: #1e63b3;
@@ -2517,6 +2518,7 @@ textarea,
 	background-color: rgba(45,45,45,0.65);
 }
 
+
 .inputWrapper-1YNMmM .input-2g-os5 {
 	background: rgba(0, 0, 0, .7);
 }
@@ -3456,6 +3458,10 @@ textarea::-webkit-scrollbar {
 .activityFeed-1C0EmJ .memberListItem-3V-x8Q {
 	color: rgba(255, 255, 255, .7);
 	transition: all .15s ease-in-out
+}
+
+.small-23Atuv {
+	max-height: none !important;
 }
 
 .activityFeed-1C0EmJ .enabled-5QKLzu:hover,
@@ -6156,11 +6162,6 @@ code {
 .box-2iMsQm:after {
 	border-top: 10px solid rgba(50, 50, 50, 0.34);
 }
-
-.small-23Atuv {
-	max-height: none !important;
-}
-
 
 .text-md-medium-2avxhQ {
     font-weight: 900;
@@ -10065,20 +10066,20 @@ code {
   --success-color: #316432;
   --danger-color: #AD0403;
   --url-color: #b26827;
-  --background-image: url('https://i.gyazo.com/9b83af02f2c27971b90c7e9e8964fcbc.png');
+  --background-image: url('https://i.gyazo.com/05d4fc11f481327aeaaa1592fc0e03c8.png');
   /*--background-image: url('https://i.gyazo.com/05d4fc11f481327aeaaa1592fc0e03c8.png');*/
   --background-shading: 0%;
   --background-position: center;
   --background-size: cover;
   --background-repeat: repeat;
   --background-attachment: fixed;
-  --background-brightness: 95%;
+  --background-brightness: 115%;
   --background-contrast: 105%;
-  --background-saturation: 107%;
+  --background-saturation: 109%;
   --background-grayscale: 0%;
   --background-invert: 0%;
   --background-blur: 0px;
-  --background-overlay: rgb(0,0,0,0.6);
+  --background-overlay: rgb(0,0,0,0.37);
   --user-popout-brightness: 100%;
   --user-popout-contrast: 100%;
   --user-popout-saturation: 100%;
@@ -10214,6 +10215,7 @@ code {
 	background-color: rgba(7, 7, 7, 0.62);
 }
 
+
 /*BETTER DISCORD NASTAVENÍ*/
 .bd-button {
 	background: rgba(36, 36, 36, 0.815) !important; /*tlačítka*/
@@ -10259,4 +10261,3 @@ code {
     text-shadow: 0 1px 0 rgb(0 0 0 / 25%);
     transition: all .3s ease-in-out;
 }
-

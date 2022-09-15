@@ -4,7 +4,6 @@
  * @version 1.0.0
  * @description Tarkov vzhled pro discord. Všechny vás mám rád
 */
-
 :root {
 	--main-color: #2780e6;
 	--hover-color: #1e63b3;
@@ -615,6 +614,10 @@ textarea,
 	color: rgba(255, 255, 255, .3);
 	font-family: var(--code-font);
 	font-size: 10px
+}
+
+.container-3rZ3XA {
+	background-color: rgba(7, 7, 7, 0.62) !important;
 }
 
 .typeWindows-2-g3UY>.wordmark-2u86JB>svg {
@@ -1668,6 +1671,11 @@ textarea,
 	color: #fff
 }
 
+.embedCard-bDyD5S {
+	background-color: rgba(0,0,0,0.6);
+	border: solid 1px hsla(38,calc(var(--saturation-factor, 1)*95.7%),25%,.3)
+}
+
 .gatedContent-31-gID .actionRed-gYn8D3:hover:after {
 	opacity: .7
 }
@@ -2428,7 +2436,8 @@ textarea,
 }
 
 .lookLink-15mFoz.colorWhite-1H92hK:hover>.contents-3ca1mk {
-	background-image: none
+	background-image: none;
+	
 }
 
 .lookLink-15mFoz.colorPrimary-2AuQVo {
@@ -2446,7 +2455,8 @@ textarea,
 
 .lookLink-15mFoz.colorBrand-I6CyqQ:hover .contents-3ca1mk {
 	background-image: none;
-	text-decoration: underline
+	text-decoration: underline;
+	
 }
 
 .lookLink-15mFoz.colorLink-1Md3RZ {
@@ -2455,7 +2465,7 @@ textarea,
 
 .lookLink-15mFoz.colorLink-1Md3RZ:hover .contents-3ca1mk {
 	background-image: none;
-	text-decoration: underline
+	text-decoration: underline;
 }
 
 .lookLink-15mFoz.colorRed-rQXKgM {
@@ -2464,7 +2474,7 @@ textarea,
 
 .lookLink-15mFoz.colorRed-rQXKgM:hover .contents-3ca1mk {
 	background-image: none;
-	text-decoration: underline
+	text-decoration: underline;
 }
 
 .checkbox-f1HnKB {
@@ -2488,15 +2498,35 @@ textarea,
 	padding: 0 2px 2px 2px
 }
 
-.input-2g-os5 {
+.input-2g-os5 { /*INPUT EDIT*/
 	color: var(--text-normal);
-	background-color: rgba(255, 255, 255, .07);
+	background: rgba(0, 0, 0, .0) !important;
 	border: none;
-	box-shadow: 0 0 0 2px rgba(255, 255, 255, .09)
+	/*box-shadow: 0 0 0 2px rgba(255, 255, 255, .09)*/
+}
+
+.container-2_J666 {
+	background-color: rgba(0, 0, 0, .7) !important;
+}
+
+.stepContainer-SaPPyG {
+	background-color: rgba(45,45,45,0.3);
+}
+
+.stepContainer-SaPPyG:hover {
+	background-color: rgba(45,45,45,0.65);
+}
+
+.inputWrapper-1YNMmM .input-2g-os5 {
+	background: rgba(0, 0, 0, .7);
 }
 
 .input-2g-os5::placeholder {
 	color: rgba(255, 255, 255, .3)
+}
+
+.addReactButton-3bSQb6, .buttonInner-3aRbcx {
+	border-radius: 6px !important;
 }
 
 .input-2g-os5:hover {
@@ -2505,7 +2535,11 @@ textarea,
 
 .input-2g-os5:focus,
 .input-2g-os5.focused-1AtTHC {
-	box-shadow: 0 0 2px 2px var(--main-color)
+	/*box-shadow: 0 0 2px 2px var(--main-color)*/
+}
+
+.submitButton-3B-dZd:hover {
+	background-color: rgba(70,70,70,0.66) !important;
 }
 
 .input-2g-os5.noBorder-2p63tM {
@@ -3480,7 +3514,7 @@ textarea::-webkit-scrollbar {
 }
 
 .activity-1KqKY2 strong {
-	color: #d5d8c7
+	color: #d5d8c7;
 }
 
 .actionButton-3-B2x- {
@@ -4787,25 +4821,26 @@ code {
 }
 
 .buffer-3eVqKK {
-	background: rgba(255, 255, 255, .04);
+	background: rgba(255, 255, 255, .15);
 	opacity: 1
 }
 
 .buffer-3eVqKK:before,
 .buffer-3eVqKK:after {
-	background: rgba(255, 255, 255, .04);
+	background: rgba(255, 255, 255, .15);
 	opacity: 1
 }
 
 .mediaBarGrabber-FvJKJg,
 .mediaBarProgress-38I317 {
-	background: var(--main-color);
-	transition: background .15s ease-in-out
+	background: orange;
+	transition: background .15s ease-in-out;
+	
 }
 
 .mediaBarProgress-38I317:before,
 .mediaBarProgress-38I317:after {
-	background: var(--main-color)
+	background: orange;
 }
 
 .mediaBarPreview-1gUbVy {
@@ -4816,11 +4851,12 @@ code {
 
 .mediaBarPreview-1gUbVy:before,
 .mediaBarPreview-1gUbVy:after {
-	background: #fff
+	background: #fff;
+	
 }
 
 .bubble-3XikHF {
-	background: var(--main-color);
+	background: orange;
 	box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
 	color: #fff;
 	transform: translateX(-50%) rotateX(-90deg);
@@ -4829,25 +4865,25 @@ code {
 }
 
 .bubble-3XikHF:before {
-	border-top-color: var(--main-color)
+	border-top-color: orange;
 }
 
 .mediaBarInteraction-tUE5dq:hover .mediaBarGrabber-FvJKJg {
-	background: var(--main-color)
+	background: orange;
 }
 
 .mediaBarInteraction-tUE5dq:hover .mediaBarPreview-1gUbVy {
-	opacity: .1
+	opacity: .1;
 }
 
 .mediaBarInteractionDragging-3XLL8k .mediaBarProgress-38I317,
 .mediaBarInteractionDragging-3XLL8k .mediaBarGrabber-FvJKJg,
 .mediaBarInteractionDragging-3XLL8k .bubble-3XikHF {
-	background: var(--hover-color)
+	background: rgba(255, 165, 0, 0.5)
 }
 
 .mediaBarInteractionDragging-3XLL8k .bubble-3XikHF:before {
-	border-top-color: var(--hover-color)
+	border-top-color: rgba(255, 165, 0, 0.5)
 }
 
 .mediaBarInteraction-tUE5dq:hover .mediaBarWrapper-33h1oY,
@@ -4858,7 +4894,8 @@ code {
 
 .mediaBarInteraction-tUE5dq:hover .bubble-3XikHF,
 .mediaBarInteractionDragging-3XLL8k .bubble-3XikHF {
-	transform: translateX(-50%)
+	transform: translateX(-50%);
+	color: black !important;
 }
 
 .theme-dark .mention { /*mention bez custom barvy a user*/
@@ -4956,8 +4993,8 @@ code {
 }
 
 .reaction-102jx9 {
-	background-color: rgba(255, 255, 255, .05);
-	border-radius: 3px;
+	background-color: rgba(35, 35, 35, .5);
+	border-radius: 6px;
 	transition: all .15s ease-in-out
 }
 
@@ -4969,6 +5006,15 @@ code {
 	color: rgba(255, 255, 255, .9)
 }
 
+.channelNameSpan-2CGJt7 {
+	color: white;
+	font-weight: 500;
+}
+
+.messageContent-1SOr75 {
+	color: #b0acac;
+}
+
 .reaction-102jx9 .reactionInner-1po5__ {
 	padding: 0 5px
 }
@@ -4978,12 +5024,12 @@ code {
 }
 
 .reaction-102jx9.reactionMe-2zhiyZ {
-	background-color: rgba(255, 255, 255, .1);
-	border-color: rgba(0, 0, 0, 0)
+	border-radius: 6px;
+	color: white !important;
 }
 
 .reaction-102jx9.reactionMe-2zhiyZ .reactionCount-SWXh9W {
-	color: var(--main-color)
+	color: white !important;
 }
 
 .reaction-102jx9.reactionMe-2zhiyZ:hover {
@@ -5154,6 +5200,15 @@ code {
 .eventCard-2ZL9GD {
 	background-color: rgba(0, 0, 0, .4);
 	border: 2px solid var(--main-color)
+}
+
+.eventCard-2ZL9GD:hover {
+	background-color: rgba(75, 75, 75, .2) !important;
+	border: 2px solid var(--main-color)
+}
+
+.eventStatusBrand-3D-ae6, .eventStatusLabel-1og3vG, .eventStatusGreen-2-f2N8 {
+	color: #7289da !important;
 }
 
 .eventStatusBrand-3D-ae6,
@@ -5483,7 +5538,7 @@ code {
 }
 
 .theme-dark .item-2OyinQ:hover {
-	background-color: var(--hover-color)
+	background-color: rgba(7, 7, 7, 0.62) !important;
 }
 
 .selectorButtonSelected-1VZ6hz {
@@ -5989,20 +6044,52 @@ code {
 	background: rgba(0, 0, 0, .3)
 }
 
+.theme-dark .container-2qVG6q.isOpen-2OXbFs {
+	background-color: rgba(25,25,25,0.5) !important;
+	border: 1px solid orange;
+}
+
+.theme-dark .container-2qVG6q.isOpen-2OXbFs:hover {
+	background-color: rgba(65,65,65,0.4) !important;
+	border: 1px solid orange !important;
+}
+
+.sidebarCard-1Gn1ch, .container-2IhveL {
+	background-color: rgba(7, 7, 7, 0.62) !important;
+}
+
+
+.container-2nXUah {
+	background-color: rgba(7, 7, 7, 0.62)
+}
+
+
 .mainCard-3KBsBI {
-	background: rgba(0, 0, 0, .3);
-	border: 2px solid var(--main-color)
+	background: rgba(0, 0, 0, .7);
+	border: 1px solid var(--main-color)
+}
+
+.pill-3pRQlO.small-1j51ag {
+	background-color: rgba(75,75,75,0.35);
+}
+
+.pill-3pRQlO.small-1j51ag:hover {
+	background-color: rgba(75,75,75,0.6) !important;
+	border: 1px solid rgba(255,255,255,0.4) !important;
 }
 
 .mainCard-3KBsBI:hover {
 	background: rgba(0, 0, 0, .3);
-	border: 2px solid var(--hover-color)
+	border: 2px solid rgba(255,255,255,0.35) !important
+
 }
 
 .mainCard-3KBsBI .channelTextArea-1VQBuV {
-	background: rgba(255, 255, 255, .07);
-	width: 95%
+	background: rgba(0, 0, 0, .7);
+	width: 95%;
 }
+
+
 
 .mainCard-3KBsBI .channelTextArea-1VQBuV .scrollableContainer-15eg7h {
 	background: rgba(0, 0, 0, 0)
@@ -6056,13 +6143,34 @@ code {
 	color: #fff
 }
 
+
+
+.newPostsButton-UaBhcU.sidebarVisible-2ShTBR {
+	background-color: rgba(141, 231, 56, 0.8) !important;
+}
+
+.box-2iMsQm {
+	background-color: rgba(50, 50, 50, 0.34);
+}
+
+.box-2iMsQm:after {
+	border-top: 10px solid rgba(50, 50, 50, 0.34);
+}
+
+.text-md-medium-2avxhQ {
+    font-weight: 900;
+}
+
+.small-23Atuv {
+	max-height: none !important;
+}
+
+
 .searchInput-3NGPfp {
 	width: 95%;
 	border-radius: 4px;
 	height: 30px;
 }
-
-
 
 .title-1v5ZfI input,
 .title-1v5ZfI input::placeholder {
@@ -6081,7 +6189,7 @@ code {
 }
 
 .uploadInput-3fblkw:hover {
-	background: var(--hover-color);
+	background: rgba(65,65,65,0.8);
 	transition: all .15s ease-in-out
 }
 
@@ -7419,7 +7527,7 @@ code {
 }
 
 .theme-dark .calendarPicker-sDhzdi .react-datepicker__week>.react-datepicker__day--today {
-	color: var(--main-color);
+	color: white;
 	font-weight: 700
 }
 
@@ -8545,7 +8653,7 @@ code {
 }
 
 .roleRow-230vCm:hover:not(.roleRowDisableHover-3En0vy) .button-1_oXub:hover {
-	background-color: var(--hover-color);
+	background-color: rgba(75,75,75,0.6);
 	color: #fff
 }
 
