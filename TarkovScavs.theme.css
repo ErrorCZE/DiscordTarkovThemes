@@ -1,0 +1,23 @@
+/**
+ * @name Tarkov [Scavs]
+ * @author Err0rCZE
+ * @version 2.0.0
+ * @description Tarkov vzhled pro discord. Všechny vás mám rád
+*/
+
+:root {
+    --background-image: url('https://i.gyazo.com/9b83af02f2c27971b90c7e9e8964fcbc.png');
+    /*--background-image: url('https://i.gyazo.com/05d4fc11f481327aeaaa1592fc0e03c8.png');*/
+    --background-shading: 0%;
+    --background-position: center;
+    --background-size: cover;
+    --background-repeat: repeat;
+    --background-attachment: fixed;
+    --background-brightness: 95%;
+    --background-contrast: 105%;
+    --background-saturation: 107%;
+    --background-grayscale: 0%;
+    --background-invert: 0%;
+    --background-blur: 0px;
+    --background-overlay: rgb(0,0,0,0.6);
+}

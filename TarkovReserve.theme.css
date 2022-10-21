@@ -1,0 +1,22 @@
+/**
+ * @name Tarkov [Reserve]
+ * @author Err0rCZE
+ * @version 2.0.0
+ * @description Tarkov vzhled pro discord. Všechny vás mám rád
+*/
+
+:root {
+    --background-image: url('https://i.gyazo.com/6009394f49e4c6b68572ca790f8c90e9.png'); /*pozadí*/
+    --background-shading: 0%;
+    --background-position: center;
+    --background-size: cover;
+    --background-repeat: repeat;
+    --background-attachment: fixed;
+    --background-brightness: 100%;
+    --background-contrast: 100%;
+    --background-saturation: 100%;
+    --background-grayscale: 0%;
+    --background-invert: 0%;
+    --background-blur: 0.7px;
+    --background-overlay: rgb(0,0,0,0.37);
+}
