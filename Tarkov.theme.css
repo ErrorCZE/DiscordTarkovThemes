@@ -10303,7 +10303,7 @@ code {
 
 /*------------------------------------------------------------*/
 :root {
-  --main-color: red;
+  --main-color: rgb(35,35,35,0.75);
   --hover-color: #c6c5b3;
   --success-color: #316432;
   --danger-color: #AD0403;
