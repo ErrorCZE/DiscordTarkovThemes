@@ -1,0 +1,24 @@
+/**
+ * @name Tarkov [Factory]
+ * @author Err0rCZE
+ * @version 3.0.0 (AUTO-UPDATE)
+ * @description EFT Discord Theme
+*/
+
+
+:root {
+    --background-image: url('https://i.gyazo.com/05d4fc11f481327aeaaa1592fc0e03c8.png');
+    /*--background-image: url('https://i.gyazo.com/05d4fc11f481327aeaaa1592fc0e03c8.png');*/
+    --background-shading: 0%;
+    --background-position: center;
+    --background-size: cover;
+    --background-repeat: repeat;
+    --background-attachment: fixed;
+    --background-brightness: 115%;
+    --background-contrast: 105%;
+    --background-saturation: 109%;
+    --background-grayscale: 0%;
+    --background-invert: 0%;
+    --background-blur: 0px;
+    --background-overlay: rgb(0,0,0,0.37);
+}

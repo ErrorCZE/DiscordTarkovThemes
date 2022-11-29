@@ -1,0 +1,23 @@
+/**
+ * @name Tarkov [Town] (Blurry)
+ * @author Err0rCZE
+ * @version 3.0.0 (AUTO-UPDATE)
+ * @description EFT Discord Theme
+*/
+
+:root {
+    --background-image: url('https://i.gyazo.com/e53ebf2bacdf656fc2cbf2e5efb12785.png');
+    /*--background-image: url('https://i.gyazo.com/05d4fc11f481327aeaaa1592fc0e03c8.png');*/
+    --background-shading: 0%;
+    --background-position: center;
+    --background-size: cover;
+    --background-repeat: repeat;
+    --background-attachment: fixed;
+    --background-brightness: 95%;
+    --background-contrast: 110%;
+    --background-saturation: 115%;
+    --background-grayscale: 0%;
+    --background-invert: 0%;
+    --background-blur: 3.5px;
+    --background-overlay: rgb(0,0,0,0.37);
+}
